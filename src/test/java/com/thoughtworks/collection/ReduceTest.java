@@ -26,9 +26,7 @@ public class ReduceTest {
         //获取数组中的最小值
         Integer[] array = new Integer[]{9, 4, 5, 10, 34, 2, 1, 10, 16};
         List<Integer> arrayList = Arrays.asList(array);
-
         Reduce reduce = new Reduce(arrayList);
-
         assertThat(reduce.getMinimum()).isEqualTo(1);
     }
 
@@ -37,9 +35,7 @@ public class ReduceTest {
         // 获取数组的平均值
         Integer[] array = new Integer[]{12, 34, 56, 78, 90, 21};
         List<Integer> arrayList = Arrays.asList(array);
-
         Reduce reduce = new Reduce(arrayList);
-
         assertThat(reduce.getAverage()).isEqualTo(48.5);
     }
 
@@ -121,7 +117,6 @@ public class ReduceTest {
         //获取数组中最后一个奇数的下标
         Integer[] array = new Integer[]{1, 4, 27, 20, 4, 9, 15, 4, 1, 11};
         List<Integer> arrayList = Arrays.asList(array);
-
         Reduce reduce = new Reduce(arrayList);
         assertThat(reduce.getIndexOfLastOdd()).isEqualTo(9);
     }
