@@ -1,16 +1,8 @@
 package com.thoughtworks.collection;
 
-import org.fest.util.Lists;
-import org.fest.util.Sets;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
-import java.lang.reflect.Field;
 import java.util.*;
 
-
 public class Add {
-
-
 
 
     public int getSumOfEvens(int leftBorder, int rightBorder) {
