@@ -1,6 +1,5 @@
 package com.thoughtworks.collection;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.Collections;
 import java.util.List;
@@ -97,9 +96,46 @@ public class Reduce {
         return this.arrayList.equals(arrayList);
     }
 
+
+
+
+
+
     public Double getMedianInLinkList(SingleLink singleLink) {
-        throw new NotImplementedException();
+
+        int i = 0;
+        double median = 0.0;
+
+//        while (singleLink.hashCode())
+//        {
+//
+//
+//        }
+//        System.out.println(singleLink.getNode(1));
+//
+//        if (i % 2 == 0)
+//            median = singleLink.getNode(i) + singleLink.getNode((i-1));
+//
+//
+        //singleLink.getNext()
+
+
+
+
+        System.out.println("XXX");
+
+
+
+
+        return median;
     }
+
+
+
+
+
+
+
 
     public int getLastOdd() {
         //throw new NotImplementedException();

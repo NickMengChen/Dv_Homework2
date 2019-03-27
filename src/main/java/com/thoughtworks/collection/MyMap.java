@@ -1,9 +1,9 @@
 package com.thoughtworks.collection;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class MyMap {
@@ -56,16 +56,18 @@ public class MyMap {
             }
 
         }
-        //String[] result = new String[]{"a", "m", "aa", "ad", "az", "ba"};
-        //Result = Arrays.asList(result);
         return Result;
     }
 
     public List<Integer> sortFromBig() {
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
+        Collections.sort(array, Collections.reverseOrder());
+        return array;
     }
 
     public List<Integer> sortFromSmall() {
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
+        Collections.sort(array);
+        return array;
     }
 }

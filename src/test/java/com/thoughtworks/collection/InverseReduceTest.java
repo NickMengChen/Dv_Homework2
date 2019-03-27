@@ -9,7 +9,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 public class InverseReduceTest {
-/*
+
     @Test
     public void should_be_divided_to_smaller_number() {
      //根据给定数字无限分割至等于0(提示：9-2=7,7-2=5 ...)
@@ -23,6 +23,6 @@ public class InverseReduceTest {
 
         assertThat(inverseReduce.divideToSmaller(9)).isEqualTo(resultList);
     }
-    */
+
 }
 
